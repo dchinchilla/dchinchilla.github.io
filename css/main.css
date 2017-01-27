@@ -42,8 +42,9 @@ nav ul {
   list-style: none;
   overflow: auto;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  align-items: left;
+  justify-content: center;
+  flex-direction: column; }
   nav ul li {
     margin: 0;
     padding: 0;
@@ -104,7 +105,8 @@ header {
   .venue .blocks-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
   .venue h2 {
     color: #91756D;
     text-align: center;
@@ -389,6 +391,9 @@ footer {
     .tagline h2 {
       font-size: 60px; }
 
+  .venue .blocks-wrapper {
+    flex-direction: row; }
+
   .mastheads h2 {
     font-size: 60px;
     line-height: 60px; }
@@ -400,6 +405,10 @@ footer {
 
   .lg-nav {
     display: block; }
+
+  nav ul {
+    flex-direction: row;
+    align-tems: center; }
 
   h2,
   .masthead p {
