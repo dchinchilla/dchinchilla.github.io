@@ -66,8 +66,9 @@ nav
     list-style: none
     overflow: auto
     display: flex
-    align-items: center
+    align-items: left
     justify-content: center
+    flex-direction: column
     
     li
       margin: 0
@@ -136,6 +137,7 @@ header
     display: flex
     align-items: center
     justify-content: center
+    flex-direction: column
   
   h2
     color: $light-brown
@@ -458,6 +460,10 @@ footer
     h2
       font-size: 60px
   
+  .venue
+    .blocks-wrapper
+      flex-direction: row
+  
   .mastheads
     h2
       font-size: 60px
@@ -474,6 +480,11 @@ footer
   .lg-nav
     display: block
 
+  nav
+    ul
+      flex-direction: row
+      align-tems: center
+  
   h2,
   .masthead p
     font: bold 46px $bitter
