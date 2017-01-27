@@ -286,6 +286,9 @@ header {
   .faq .wrapper dd {
     margin-bottom: 50px; }
 
+.agenda-container {
+  padding: 80px 5%; }
+
 .sponsors {
   background: #ffffff;
   padding: 10px 0;
@@ -366,6 +369,9 @@ footer {
     font-size: 12px;
     text-align: center;
     color: white; }
+
+.apostrophe {
+  font-family: "Bitter", serif; }
 
 @media (min-width: 768px) {
   p,
