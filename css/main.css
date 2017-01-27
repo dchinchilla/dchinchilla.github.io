@@ -287,7 +287,7 @@ header {
     margin-bottom: 50px; }
 
 .sponsors {
-  background: #F5F5F5;
+  background: #ffffff;
   padding: 10px 0;
   text-align: center; }
   .sponsors h3 {
@@ -295,6 +295,7 @@ header {
     font-family: "Bitter", serif;
     font-size: 26px; }
   .sponsors img {
+    max-width: 300px;
     display: inline-block;
     padding: 15px; }
   .sponsors .sponsors-logos {
