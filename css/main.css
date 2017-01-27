@@ -132,6 +132,20 @@ header {
   .venue .left-title {
     color: #4C3D40; }
 
+.btn-hollow {
+  font-size: 24px;
+  border: 1px solid white;
+  padding: 15px 30px;
+  background-color: transparent;
+  font-family: "Bitter", serif;
+  border-radius: 4px;
+  color: white;
+  transition: all 250ms; }
+  .btn-hollow:hover {
+    background: white;
+    color: #F8AC20;
+    cursor: pointer; }
+
 .masthead-home {
   text-align: center;
   background-image: url(../img/masthead-bg.jpg);
@@ -141,19 +155,6 @@ header {
     max-width: 720px; }
   .masthead-home p {
     color: white; }
-  .masthead-home .btn-hollow {
-    font-size: 24px;
-    border: 1px solid white;
-    padding: 15px 30px;
-    background-color: transparent;
-    font-family: "Bitter", serif;
-    border-radius: 4px;
-    color: white;
-    transition: all 250ms; }
-    .masthead-home .btn-hollow:hover {
-      background: white;
-      color: #F8AC20;
-      cursor: pointer; }
 
 .masthead-agenda {
   height: 580px;
@@ -305,7 +306,11 @@ header {
     padding: 15px; }
   .sponsors .sponsors-logos {
     max-width: 1100px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
 
 .left-title,
 .right-desc {
@@ -408,7 +413,7 @@ footer {
 
   nav ul {
     flex-direction: row;
-    align-tems: center; }
+    align-items: center; }
 
   h2,
   .masthead p {
