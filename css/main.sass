@@ -167,7 +167,22 @@ header
 
   .left-title
     color: $brown
+  
+.btn-hollow
+  font-size: 24px
+  border: 1px solid white
+  padding: 15px 30px
+  background-color: transparent
+  font-family: $bitter
+  border-radius: 4px
+  color: white
+  transition: all 250ms
 
+  &:hover
+    background: white
+    color: $yellow
+    cursor: pointer
+      
 .masthead-home
   text-align: center
   background-image: url(../img/masthead-bg.jpg)
@@ -180,21 +195,6 @@ header
   p
     color: white
   
-  .btn-hollow
-    font-size: 24px
-    border: 1px solid white
-    padding: 15px 30px
-    background-color: transparent
-    font-family: $bitter
-    border-radius: 4px
-    color: white
-    transition: all 250ms
-
-    &:hover
-      background: white
-      color: $yellow
-      cursor: pointer
-
 .masthead-agenda
   height: 580px
   text-align: center
@@ -364,6 +364,10 @@ header
   .sponsors-logos
     max-width: 1100px
     margin: 0 auto
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
 
 .left-title,
 .right-desc
@@ -483,7 +487,7 @@ footer
   nav
     ul
       flex-direction: row
-      align-tems: center
+      align-items: center
   
   h2,
   .masthead p
